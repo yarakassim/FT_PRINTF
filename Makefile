@@ -6,7 +6,7 @@
 #    By: ykassim- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/25 13:48:58 by ykassim-          #+#    #+#              #
-#    Updated: 2021/09/17 10:41:05 by ykassim-         ###   ########.fr        #
+#    Updated: 2021/09/18 16:24:52 by ykassim-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,8 @@ CFLAGS = -Wall -Wextra -Werror
 AR = ar rcs
 RM = rm -rf
 
-SRC = check_flag.c \
+SRC = parse_away.c \
+	  check_flag.c \
 	  print_arg.c \
 	  ft_printf_utils.c \
 	  ft_putnbr_party.c \

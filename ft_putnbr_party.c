@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ykassim- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/17 10:24:00 by ykassim-          #+#    #+#             */
-/*   Updated: 2021/09/17 16:52:13 by ykassim-         ###   ########.fr       */
+/*   Created: 2021/09/18 16:03:41 by ykassim-          #+#    #+#             */
+/*   Updated: 2021/09/18 16:59:16 by ykassim-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	ft_putnbr_base(int nbr, t_tools *play)
 
 	size = ft_strlen(play->base);
 	n = nbr;
-	if (ft_strncmp(play->base, DEC, 10))
+	if (ft_strcmp(play->base, DEC) == 0)
 	{
 		if (n == -2147483648)
 		{

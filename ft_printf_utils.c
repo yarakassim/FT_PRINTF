@@ -6,7 +6,7 @@
 /*   By: ykassim- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/17 10:29:51 by ykassim-          #+#    #+#             */
-/*   Updated: 2021/09/18 15:14:26 by ykassim-         ###   ########.fr       */
+/*   Updated: 2021/09/18 16:45:12 by ykassim-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,15 +43,14 @@ void	ft_putstr(char *s, t_tools *play)
 	}
 }
 
-int	ft_strncmp	(const char *s1, const char *s2, size_t n)
+int	ft_strcmp(const char *s1, const char *s2)
 {
-	while (n && (*s1 || *s2))
+	while (*s1 || *s2)
 	{
 		if (*s1 != *s2)
 			return ((unsigned char)*s1 - *s2);
 		s1++;
 		s2++;
-		n--;
 	}
 	return (0);
 }

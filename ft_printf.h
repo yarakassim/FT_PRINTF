@@ -6,7 +6,7 @@
 /*   By: ykassim- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/03 14:23:11 by ykassim-          #+#    #+#             */
-/*   Updated: 2021/09/18 15:14:11 by ykassim-         ###   ########.fr       */
+/*   Updated: 2021/09/18 16:45:48 by ykassim-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,8 @@ typedef struct s_tools
 int		check_flag(char flag_c);
 int		ft_printf(const char *str, ...);
 int		ft_strlen(char *str);
-int		ft_strncmp(const char *s1, const char *s2, size_t n);
+int		ft_strcmp(const char *s1, const char *s2);
+void	parse_away(const char *str, t_tools *play);
 void	print_arg(char flag_c, t_tools *play);
 void	ft_putnbr_base(int n, t_tools *play);
 void	ft_putnbr_unsigned(unsigned int n, t_tools *play);
