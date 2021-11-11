@@ -6,7 +6,7 @@
 /*   By: ykassim- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 13:36:27 by ykassim-          #+#    #+#             */
-/*   Updated: 2021/09/22 17:29:31 by ykassim-         ###   ########.fr       */
+/*   Updated: 2021/11/11 11:55:50 by ykassim-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 int	ft_printf(const char *str, ...)
 {
-	/*struct doesn't need to be declared as a pointer*/
 	t_tools	play;
 
 	play.index = 0;
